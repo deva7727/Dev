@@ -1,64 +1,55 @@
-/* Reset styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+/* styles.css */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-}
-
-.container {
-    display: flex;
-    justify-content: space-between;
-    margin: 20px auto;
-    max-width: 960px;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
 }
 
-header nav ul {
-    list-style: none;
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-header nav ul li {
-    display: inline;
-    margin-right: 20px;
+nav ul li {
+  display: inline;
+  margin-right: 20px;
 }
 
-header nav ul li a {
-    color: #fff;
-    text-decoration: none;
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
 }
 
-main {
-    flex-grow: 2;
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-article {
-    margin-bottom: 20px;
+section {
+  padding: 40px 0;
 }
 
-aside {
-    flex-basis: 30%;
-    background-color: #f4f4f4;
-    padding: 20px;
+h2 {
+  margin-bottom: 20px;
+}
+
+.project {
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-}
-
-footer p {
-    margin: 0;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
 }
